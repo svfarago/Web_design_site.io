@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Visualization</title>
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body class="body-background">
+    <!-- Defining navbar with inverse color and components -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Weather Visualization</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Comparison Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="cloud.html">Cloudiness</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="temperature.html">Temperature</a></li>
+              <li><a href="wind.html">Wind</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </nav>
+ <!-- End of nav -->
+  
+​<!-- Start container -->
+<div class="container-fluid">
+      <div class="col-lg-6 col-sm-8">
+        <div class="description">
+          <h1 class="description-header">Summary: Latitude vs. Cloudiness</h1>
+          <hr>
+          <img src="resources/Latitude_cloudiness.png" height=400px alt="Latitude vs Cloudiness" class="pull-left">
+          <p>When analyzing cloudiness patterns (% cloudiness), there does not appear to be any pattern or trend based on latitude. The chart shows a scatter pattern regardless of latitude.</p>
+        </div>
+      </div>
+  
+  
+  <!---Container-->
+  <div class="col-lg-4 col-md-10">
+    <h1 class=header>Visualizations</h1>
+    <hr>
+      <a href="cloud.html">
+      <img width=160 height=120 src="resources/Latitude_cloudiness.png" alt="link to cloudiness image" style="border: 2px rgb(105, 127, 250) solid">
+      </a>
+      <a href="humidity.html">
+      <img width=160 height=120 src="resources/Latitude_humidity.png" alt="link to humidity image">
+      </a>
+      <a href="temperature.html">
+      <img width=160 height=120 src="resources/Latitude_temperature.png" alt="link to temperature image">
+      </a>
+      <a href="wind.html">
+      <img width=160 height=120 src="resources/Latitude_wind.png" alt="link to wind image">
+      </a>
+  </div>
+  </section>
+  
+<!--End of main area-->
+
+<div class="footer">
+  <p>University of Denver - SVF 2021</p>
+</div>
+
+<!---Script files--->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>

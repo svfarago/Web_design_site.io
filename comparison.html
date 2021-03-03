@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather Visualization</title>
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  
+
+
+</head>
+<body class="body-background">
+    <!-- Defining navbar with inverse color and components -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">         
+          <a class="navbar-brand" href="index.html">Weather Visualization</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Comparison Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="cloud.html">Cloudiness</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="temperature.html">Temperature</a></li>
+              <li><a href="wind.html">Wind</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </nav>
+ <!-- End of nav -->
+​
+​<!-- Start container -->
+
+<h2>Comparison: Latitude vs. X</h2>
+<hr>
+  <p>Click on any plot to get an in-depth analysis.</p>
+  </br>
+
+<section class="row">
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Cloudiness</h4>
+    <a href="cloud.html">
+      <img class= left_padding src="resources/Latitude_cloudiness.png">
+    </a>
+  </div>
+
+  <div class="col col-lg-5 col-md-10 box">
+      <h4>vs. Humidity</h4>
+      <a href="humidity.html">
+        <img class= right_padding src="resources/Latitude_humidity.png">
+      </a>
+    </div>
+</section>
+
+<section class="row">
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Temperature</h4>
+    <a href="temperature.html">
+      <img class= left_padding src="resources/Latitude_temperature.png">
+    </a>
+  </div>
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Wind</h4>
+    <a href="wind.html">
+      <img class= right_padding src="resources/Latitude_wind.png">
+    </a>
+  </div>
+</section>
+
+<!--End of main area-->
+
+<div class="footer">
+  <p>University of Denver - SVF 2021</p>
+</div>
+
+<!---Script files--->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
