@@ -2,7 +2,7 @@
 * This project uses HTML, CSS, and Bootstrap.
 
 ## ReadMe File
-* Updated: March 1, 2021 | Created: February 25, 2021
+* Updated: March 2, 2021 | Created: February 25, 2021
 * Copyright: open source
 
 ### License ===========================
@@ -10,8 +10,7 @@
 
 
 ### Configuration Instructions ========
-* Configure PGAdmin with database admin userID and password. This will apply to local databases.
-* This may impact the abilty to run SQL queries in this project.
+* None
 
 
 ### Installation Instructions ==========
@@ -23,7 +22,6 @@
 - Image viewer such as Microsoft Photos or Microsoft Paint
 
 * Similar applications may also work.
-
 
 
 ### List of Files ====================
@@ -71,6 +69,7 @@
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
+https://www.convertcsv.com/csv-to-html.htm
 https://kids.britannica.com/kids/assembly/view/89100
 https://html.com/images/borders-and-image-links/
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
@@ -80,7 +79,7 @@ https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_fixed&stacke
 
 
 
-* URLs last used: March 1, 2021
+* URLs last used: March 2, 2021
 
 
 ###  Contact Information ===============

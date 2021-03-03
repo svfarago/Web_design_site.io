@@ -32,6 +32,16 @@ h3 {
 
 h4 {
   color: rgb(45, 49, 49);
+  padding-left: 10%;
+}
+
+h5 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  font-size: small;
 }
 
 p {
@@ -55,8 +65,6 @@ body{
  .body-background {
 background-color: rgb(199, 197, 197);
  }
-
-
 
 .footer {
    position: fixed;
